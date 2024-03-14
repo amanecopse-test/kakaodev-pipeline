@@ -11,8 +11,8 @@ pipeline {
       steps {
         sh '''
         whoami
-        sudo docker build -t brian24/kakaodev:yellow .
-        sudo docker push brian24/kakaodev:yellow
+        sudo docker build -t amanecopse/kakaodev:yellow .
+        sudo docker push amanecopse/kakaodev:yellow
         '''
       }
     }
